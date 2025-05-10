@@ -86,4 +86,5 @@ To modify the API endpoints or parameters, update the functions in services/api.
 Acknowledgments
 
 The Movie Database (TMDb) for providing the API
+
 Material UI for the component library

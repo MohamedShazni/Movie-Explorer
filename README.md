@@ -59,49 +59,6 @@ Go to your account settings and select the "API" section
 Follow the instructions to request an API key for development purposes
 Once you have your key, add it to your .env file as described above
 
-Project Structure
-
-movie-explorer-app/
-
-├── public/
-
-│   ├── index.html
-
-│   └── favicon.ico
-
-├── src/
-
-│   ├── components/      # Reusable UI components
-
-│   │   ├── Login.js
-
-│   │   └── Navbar.js
-
-│   ├── pages/           # Page components
-
-│   │   ├── Home.js
-
-│   │   ├── MovieDetails.js
-
-│   │   └── Search.js
-
-│   ├── services/        # API and utility functions
-
-│   │   └── api.js
-
-│   ├── App.js           # Main application component
-
-│   ├── index.js         # Entry point
-
-│   └── index.css        # Global styles
-
-└── package.json         # Project dependencies and scripts
-
-Customization
-
-
-To change the theme colors, edit the theme configuration in App.js
-To modify the API endpoints or parameters, update the functions in services/api.js
 
 Acknowledgments
 

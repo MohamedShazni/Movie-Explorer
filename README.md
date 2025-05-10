@@ -1,4 +1,5 @@
 Movie Explorer App
+
 A modern web application that allows users to search for movies, view details, and discover trending films. Built with React and Material UI, this app fetches real-time data from the TMDb (The Movie Database) API.
 Features
 

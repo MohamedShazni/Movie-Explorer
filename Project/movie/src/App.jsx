@@ -12,7 +12,7 @@ import FavoritesPage from "./pages/FavoritesPage";
 
 // Components
 import Login from "./components/Login";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Home from "./pages/Home";
 import MovieDetails from "./pages/MovieDetails";
 import Search from "./pages/Search";

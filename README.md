@@ -50,8 +50,6 @@ npm start
 or with yarn:
 yarn start
 
-Open http://localhost:3000 to view the app in your browser.
-
 Getting a TMDb API Key
 
 Visit https://www.themoviedb.org/ and create an account

@@ -60,15 +60,25 @@ Follow the instructions to request an API key for development purposes
 Once you have your key, add it to your .env file as described above
 
 Project Structure
+
 movie-explorer-app/
+
 ├── public/
+
 │   ├── index.html
+
 │   └── favicon.ico
+
 ├── src/
+
 │   ├── components/      # Reusable UI components
+
 │   │   ├── Login.js
+
 │   │   └── Navbar.js
+
 │   ├── pages/           # Page components
+
 │   │   ├── Home.js
 │   │   ├── MovieDetails.js
 │   │   └── Search.js

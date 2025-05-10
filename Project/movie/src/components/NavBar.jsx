@@ -105,10 +105,10 @@ function Navbar({ darkMode, toggleDarkMode, onLogout, username }) {
             component={Link}
             to="/"
             sx={{
-              display: { xs: "none", sm: "block" },
               textDecoration: "none",
               color: "inherit",
               flexGrow: 1,
+              fontSize: { xs: "1rem", sm: "1.25rem" },
             }}
           >
             Movie Explorer
@@ -118,7 +118,6 @@ function Navbar({ darkMode, toggleDarkMode, onLogout, username }) {
             component={Link}
             to="/favorites"
             color="inherit"
-            sx={{ ml: 2 }}
           >
             <Badge badgeContent={favorites.length} color="secondary">
               <FavoriteIcon />
@@ -135,6 +134,12 @@ function Navbar({ darkMode, toggleDarkMode, onLogout, username }) {
                 inputProps={{ "aria-label": "search" }}
                 value={searchQuery}
                 onChange={handleSearchChange}
+                // Make search bar more compact on mobile
+                sx={{
+                  "& .MuiInputBase-input": {
+                    width: { xs: "100%", sm: "20ch" },
+                  }
+                }}
               />
             </Search>
           </form>
@@ -148,7 +153,7 @@ function Navbar({ darkMode, toggleDarkMode, onLogout, username }) {
               </IconButton>
             </Tooltip>
 
-            <Box sx={{ ml: 2 }}>
+            <Box>
               <Tooltip title="Account settings">
                 <IconButton
                   size="large"
